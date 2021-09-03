@@ -1,0 +1,16 @@
+.post {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+  cursor: pointer;
+}
+.post:hover{
+  transition: 0.25s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.616);
+}
+.post img {
+  max-width: 100%;
+}
+
+.post-content {
+  padding: 20px;
+}

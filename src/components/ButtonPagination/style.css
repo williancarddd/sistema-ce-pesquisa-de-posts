@@ -1,0 +1,18 @@
+.button-pagination {
+  cursor: pointer;
+  width:25em;
+  height: 2em;
+  background-color: rgba(47, 151, 165, 0.644);
+  border: none;
+  padding: 5px;
+  margin: 25px;
+}
+
+.button-pagination:active{
+  background-color: rgba(47, 151, 165, 0.911);
+}
+
+.button-pagination:disabled{
+  background-color: darkgray;
+  cursor: not-allowed;
+}
